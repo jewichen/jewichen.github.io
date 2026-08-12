@@ -1,14 +1,105 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="zh-Hant">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Chien-Wei Chen</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Jiewei Chen | Portfolio</title>
+<meta name="description" content="Jiewei Chen personal portfolio">
+<style>
+  *{box-sizing:border-box}
+  :root{--navy:#102a43;--navy2:#173f5f;--gold:#b28b43;--ink:#17212b;--muted:#607080;--line:#dfe5ea;--paper:#ffffff;--soft:#f5f7f9}
+  body{margin:0;background:var(--soft);color:var(--ink);font-family:Georgia,"Times New Roman","Noto Serif TC","Microsoft JhengHei",serif;font-size:16px;line-height:1.68}
+  main{max-width:1060px;margin:36px auto 72px;padding:46px 62px 64px;background:var(--paper);border-top:7px solid var(--navy);box-shadow:0 10px 35px rgba(16,42,67,.08)}
+  .topbar{display:flex;justify-content:flex-end;margin-bottom:12px}
+  .lang-btn{appearance:none;background:transparent;border:1px solid var(--navy);border-radius:2px;padding:7px 14px;color:var(--navy);font-family:Arial,"Noto Sans TC",sans-serif;font-size:13px;font-weight:700;letter-spacing:.04em;cursor:pointer}
+  .lang-btn:hover{background:var(--navy);color:#fff}
+  h1{font-family:Arial,"Noto Sans TC","Microsoft JhengHei",sans-serif;font-size:2.45em;letter-spacing:.02em;margin:.3em 0 .12em;font-weight:750;color:var(--navy);padding-bottom:.28em;border-bottom:3px solid var(--navy)}
+  h1:after{content:"";display:block;width:86px;border-bottom:3px solid var(--gold);position:relative;top:12px}
+  h2{font-family:Arial,"Noto Sans TC","Microsoft JhengHei",sans-serif;font-size:1.22em;letter-spacing:.08em;text-transform:uppercase;margin:34px 0 17px;font-weight:800;color:var(--navy);padding-bottom:8px;border-bottom:1px solid var(--line)}
+  h3{font-family:Arial,"Noto Sans TC","Microsoft JhengHei",sans-serif;font-size:1.06em;margin:20px 0 3px;font-weight:750;color:#20364a}
+  p{margin:0 0 15px}
+  hr{height:0;padding:0;margin:30px 0;border:0;border-top:1px solid var(--line)}
+  ul{padding-left:1.35em;margin-top:8px;margin-bottom:16px}
+  li+li{margin-top:.28em}
+  li::marker{color:var(--gold)}
+  a{color:var(--navy2);text-decoration:none;border-bottom:1px solid #b9c7d3} a:hover{color:var(--gold);border-color:var(--gold)}
+  .contact{font-family:Arial,"Noto Sans TC",sans-serif;color:var(--muted);font-size:.92em;margin-top:18px;margin-bottom:19px}
+  .intro{max-width:880px;font-size:1.03em;color:#344454}
+  .entry{margin-bottom:20px;padding-left:16px;border-left:3px solid #e7d9ba}
+  .entry p{margin:0 0 3px}
+  .muted{color:var(--muted);font-style:italic}
+  [data-lang]{display:none}
+  body.zh [data-lang="zh"],body.en [data-lang="en"]{display:block}
+  @media(max-width:720px){body{background:#fff}main{margin:0;padding:26px 21px 48px;border-top-width:5px;box-shadow:none}.topbar{margin-bottom:6px}h1{font-size:1.95em}h2{font-size:1.1em;margin-top:29px}.intro{font-size:1em}}
+</style>
 </head>
+<body class="zh">
+<main>
+  <div class="topbar"><button id="langToggle" class="lang-btn" type="button">English</button></div>
 
-<body>
-    <h1>Chien-Wei Chen</h1>
-    <p>Personal Website</p>
-    <p>This website is currently under construction.</p>
+  <div data-lang="zh">
+    <h1>陳杰威</h1>
+    <p class="contact">Taipei, Taiwan · <a href="mailto:jewi2046@gmail.com">jewi2046@gmail.com</a></p>
+    <p class="intro">目前為研究所學生，研究興趣涵蓋虛擬社群行為、品牌社群互動、顧客關係管理，以及服務創新與消費者體驗；同時持續探索遊戲與人工智慧相關研究議題。具行銷實習、活動企劃、舞台執行與團隊協作經驗。</p>
+    <hr>
+    <h2>工作經歷</h2>
+    <div class="entry"><h3>行銷專員實習生</h3><p>賀寶芙</p><p class="muted">行銷相關實習經驗</p></div>
+    <hr>
+    <h2>研究方向</h2>
+    <ul><li>虛擬社群行為</li><li>品牌社群互動</li><li>顧客關係管理</li><li>服務創新與消費者體驗</li><li>遊戲與人工智慧領域</li></ul>
+    <hr>
+    <h2>社團與領導經歷</h2>
+    <div class="entry"><h3>國立中正大學熱舞社 / 韓研社</h3><ul><li>熱舞社舞蹈監督</li><li>韓研社活動企劃總幹事</li><li>年度成發舞台總監</li></ul></div>
+    <hr>
+    <h2>大學專題 / 報告</h2>
+    <ul><li>創意專題研究－懶人垃圾桶</li><li>涵碧樓服務探討</li></ul>
+    <hr>
+    <h2>證照 / 考試</h2>
+    <ul><li>TOEIC 890 分（金色證書）</li><li>人身保險業務員證照</li></ul>
+    <hr>
+    <h2>個人興趣</h2>
+    <ul><li>熱舞、羽球等運動</li><li>學習多國語言（韓文、英文）</li><li>閱讀英文雜誌與觀看英文短影音</li></ul>
+  </div>
+
+  <div data-lang="en">
+    <h1>Jiewei Chen</h1>
+    <p class="contact">Taipei, Taiwan · <a href="mailto:jewi2046@gmail.com">jewi2046@gmail.com</a></p>
+    <p class="intro">I am a graduate student interested in virtual community behavior, brand community engagement, customer relationship management, service innovation, and consumer experience. I am also exploring research topics related to gaming and artificial intelligence, with experience in marketing, event planning, stage production, and team collaboration.</p>
+    <hr>
+    <h2>Experience</h2>
+    <div class="entry"><h3>Marketing Intern</h3><p>Herbalife</p><p class="muted">Marketing-related internship experience</p></div>
+    <hr>
+    <h2>Research Interests</h2>
+    <ul><li>Virtual Community Behavior</li><li>Brand Community Engagement</li><li>Customer Relationship Management</li><li>Service Innovation &amp; Consumer Experience</li><li>Gaming &amp; Artificial Intelligence</li></ul>
+    <hr>
+    <h2>Leadership &amp; Activities</h2>
+    <div class="entry"><h3>National Chung Cheng University Dance Club / Korean Culture Club</h3><ul><li>Dance Supervisor, Dance Club</li><li>Executive Event Planner, Korean Culture Club</li><li>Stage Director, Annual Performance</li></ul></div>
+    <hr>
+    <h2>University Projects</h2>
+    <ul><li>Creative Project — Smart Trash Can</li><li>The Lalu Hotel Service Study</li></ul>
+    <hr>
+    <h2>Certifications &amp; Tests</h2>
+    <ul><li>TOEIC 890 — Gold Certificate</li><li>Life Insurance Salesperson Certification</li></ul>
+    <hr>
+    <h2>Interests</h2>
+    <ul><li>Dance, badminton, and other sports</li><li>Learning languages, including Korean and English</li><li>Reading English magazines and watching short-form English content</li></ul>
+  </div>
+</main>
+<script>
+const btn=document.getElementById('langToggle');
+btn.addEventListener('click',()=>{
+ const isZh=document.body.classList.contains('zh');
+ document.body.classList.toggle('zh',!isZh);
+ document.body.classList.toggle('en',isZh);
+ document.documentElement.lang=isZh?'en':'zh-Hant';
+ btn.textContent=isZh?'中文':'English';
+ localStorage.setItem('portfolioLang',isZh?'en':'zh');
+});
+const saved=localStorage.getItem('portfolioLang');
+if(saved==='en'){
+ document.body.classList.remove('zh'); document.body.classList.add('en');
+ document.documentElement.lang='en'; btn.textContent='中文';
+}
+</script>
 </body>
 </html>
