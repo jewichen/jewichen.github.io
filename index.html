@@ -27,7 +27,7 @@ h2{font-family:Georgia,"Times New Roman",serif;color:var(--navy);font-size:30px;
 .item:first-child{border-top:0}.date{font-weight:800;color:var(--navy)}h3{margin:0 0 5px;color:var(--navy);font-size:19px}.sub{color:var(--muted);margin-bottom:8px}
 .tags{display:flex;flex-wrap:wrap;gap:7px;margin-top:10px}.tag{font-size:12px;border:1px solid var(--line);padding:3px 8px;border-radius:999px;color:var(--muted);background:white}
 .grid{display:grid;grid-template-columns:repeat(2,1fr);gap:16px}.card{border:1px solid var(--line);padding:22px;border-radius:8px;background:white}.card:hover{box-shadow:0 10px 26px rgba(16,42,67,.07)}
-.card p{margin-bottom:0}.card .linkrow{display:flex;gap:8px;flex-wrap:wrap;margin-top:16px}.smallbtn{font-size:12px;padding:6px 9px;border:1px solid var(--line);border-radius:5px;font-weight:700}
+.card p{margin-bottom:0}.media-slot{margin-top:16px;min-height:150px;border:1.5px dashed #bcccdc;border-radius:7px;background:#f8fafc;display:flex;flex-direction:column;align-items:center;justify-content:center;text-align:center;color:var(--muted);padding:18px}.media-slot strong{color:var(--navy);margin-bottom:3px}.media-slot small{font-size:12px}.card .linkrow{display:flex;gap:8px;flex-wrap:wrap;margin-top:16px}.smallbtn{font-size:12px;padding:6px 9px;border:1px solid var(--line);border-radius:5px;font-weight:700}
 .contact{background:var(--navy);color:white}.contact h2{color:white}.contact .rule{background:#d4b46a}.contact-grid{display:flex;justify-content:space-between;align-items:center;gap:30px}.contact a{color:white}
 footer{background:#0b2239;color:#bcccdc;text-align:center;padding:22px;font-size:13px}
 [data-lang]{display:none} body.zh [data-lang="zh"],body.en [data-lang="en"]{display:initial}
@@ -108,15 +108,15 @@ body.zh div[data-lang="zh"],body.zh section[data-lang="zh"],body.en div[data-lan
 <div class="grid">
 <div class="card"><h3><span data-lang="zh">虛擬社群與品牌互動</span><span data-lang="en">Virtual & Brand Communities</span></h3><p data-lang="zh">關注虛擬社群行為、品牌社群互動，以及使用者在數位環境中的反應與參與。</p><p data-lang="en">Interested in virtual community behavior, brand community engagement, and user participation in digital environments.</p></div>
 <div class="card"><h3><span data-lang="zh">顧客與服務研究</span><span data-lang="en">Customer & Service Research</span></h3><p data-lang="zh">關注顧客關係管理、服務創新與消費者體驗。</p><p data-lang="en">Interested in customer relationship management, service innovation, and consumer experience.</p></div>
-<div class="card"><h3><span data-lang="zh">遊戲與 AI</span><span data-lang="en">Gaming & AI</span></h3><p data-lang="zh">持續探索遊戲與人工智慧相關的商業及使用者行為研究議題。</p><p data-lang="en">Exploring business and user-behavior research topics related to gaming and artificial intelligence.</p></div>
+<div class="card"><h3><span data-lang="zh">人工智慧（AI）</span><span data-lang="en">Artificial Intelligence (AI)</span></h3><p data-lang="zh">持續探索人工智慧相關的商業應用與使用者行為研究議題。</p><p data-lang="en">Exploring business applications and user-behavior research topics related to artificial intelligence.</p></div>
 </div>
 </div></section>
 
 <section id="projects"><div class="wrap">
 <div class="section-head"><div><h2><span data-lang="zh">專案與課堂成果</span><span data-lang="en">Projects & Coursework</span></h2><div class="rule"></div></div></div>
 <div class="grid">
-<div class="card"><h3><span data-lang="zh">創意專題研究：懶人垃圾桶</span><span data-lang="en">Creative Project: Smart Convenience Trash Bin</span></h3><p data-lang="zh">大學期間之創意專題研究。</p><p data-lang="en">Creative undergraduate project.</p><div class="linkrow"><span class="smallbtn">Project</span></div></div>
-<div class="card"><h3><span data-lang="zh">涵碧樓服務探討</span><span data-lang="en">The Lalu Service Study</span></h3><p data-lang="zh">以服務與消費者體驗為主題的大學專題／報告。</p><p data-lang="en">Undergraduate coursework examining service and consumer experience.</p><div class="linkrow"><span class="smallbtn">Coursework</span></div></div>
+<div class="card"><h3><span data-lang="zh">創意專題研究：懶人垃圾桶</span><span data-lang="en">Creative Project: Smart Convenience Trash Bin</span></h3><p data-lang="zh">大學期間之創意專題研究。</p><p data-lang="en">Creative undergraduate project.</p><div class="media-slot"><strong><span data-lang="zh">圖片 / 專案資料</span><span data-lang="en">Image / Project Material</span></strong><small><span data-lang="zh">可放成果圖片、報告封面、簡報或相關連結</span><span data-lang="en">For project images, report covers, slides, or related materials</span></small></div><div class="linkrow"><span class="smallbtn">Project</span></div></div>
+<div class="card"><h3><span data-lang="zh">涵碧樓服務探討</span><span data-lang="en">The Lalu Service Study</span></h3><p data-lang="zh">以服務與消費者體驗為主題的大學專題／報告。</p><p data-lang="en">Undergraduate coursework examining service and consumer experience.</p><div class="media-slot"><strong><span data-lang="zh">圖片 / 課堂成果資料</span><span data-lang="en">Image / Coursework Material</span></strong><small><span data-lang="zh">可放報告、簡報截圖或成果圖片</span><span data-lang="en">For reports, slide screenshots, or project images</span></small></div><div class="linkrow"><span class="smallbtn">Coursework</span></div></div>
 </div>
 </div></section>
 
@@ -132,13 +132,13 @@ body.zh div[data-lang="zh"],body.zh section[data-lang="zh"],body.en div[data-lan
 <section id="certifications"><div class="wrap">
 <div class="section-head"><div><h2><span data-lang="zh">證照與考試</span><span data-lang="en">Certifications</span></h2><div class="rule"></div></div></div>
 <div class="grid">
-<div class="card"><h3>TOEIC 890</h3><p><span data-lang="zh">多益金色證書</span><span data-lang="en">TOEIC Gold Certificate</span></p></div>
-<div class="card"><h3><span data-lang="zh">人身保險業務員證照</span><span data-lang="en">Life Insurance Salesperson Certification</span></h3></div>
+<div class="card"><h3>TOEIC 890</h3><p><span data-lang="zh">多益金色證書</span><span data-lang="en">TOEIC Gold Certificate</span></p><div class="media-slot"><strong><span data-lang="zh">證書圖片 / 證明資料</span><span data-lang="en">Certificate Image / Document</span></strong><small><span data-lang="zh">可放 TOEIC 證書圖片或成績證明</span><span data-lang="en">For TOEIC certificate or score document</span></small></div></div>
+<div class="card"><h3><span data-lang="zh">人身保險業務員證照</span><span data-lang="en">Life Insurance Salesperson Certification</span></h3><div class="media-slot"><strong><span data-lang="zh">證照圖片 / 證明資料</span><span data-lang="en">Certificate Image / Document</span></strong><small><span data-lang="zh">可放證照圖片或相關證明</span><span data-lang="en">For certificate image or supporting document</span></small></div></div>
 </div>
 </div></section>
 
 <section id="contact" class="contact"><div class="wrap contact-grid">
-<div><h2><span data-lang="zh">聯絡方式</span><span data-lang="en">Contact</span></h2><div class="rule"></div><p data-lang="zh">歡迎透過 Email 與我聯繫。</p><p data-lang="en">Feel free to reach out by email.</p></div>
+<div><h2><span data-lang="zh">聯絡方式</span><span data-lang="en">Contact</span></h2><div class="rule"></div><p data-lang="zh">歡迎透過 Email 與我聯繫：<a href="mailto:jewi2046@gmail.com">jewi2046@gmail.com</a></p><p data-lang="en">Feel free to reach out by email: <a href="mailto:jewi2046@gmail.com">jewi2046@gmail.com</a></p></div>
 <div class="actions"><a class="btn" style="border-color:white;color:white;background:transparent" href="mailto:jewi2046@gmail.com">Email</a><a class="btn" style="border-color:white;color:white;background:transparent" href="#home"><span data-lang="zh">回到頂端</span><span data-lang="en">Back to Top</span></a></div>
 </div></section>
 </main>
